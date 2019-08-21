@@ -12,7 +12,6 @@ $(document).ready(function() {
       max: maxValueAmt,
       step: 1000,
       slide: function(event, ui) {
-        precision: 0;
         numberInputAmt.val(ThousandSeparate(ui.value));
         $(function() {
           update();
