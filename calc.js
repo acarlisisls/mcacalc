@@ -37,8 +37,8 @@ $(document).ready(function() {
       
     //Rate Slider  
     var numberInputRate = $(".calc-input-rate");
-    var minValueRate = 1.10;
-    var maxValueRate = 1.59;
+    var minValueRate = 1.25;
+    var maxValueRate = 1.50;
     $('.calc-slider-rate').slider({
       range: "min",
       value: 1.25,
@@ -68,8 +68,8 @@ $(document).ready(function() {
       
     //Month Slider  
     var numberInputMo = $(".calc-input-mo");
-    var minValueMo = 2;
-    var maxValueMo = 30;
+    var minValueMo = 3;
+    var maxValueMo = 15;
     $('.calc-slider-mo').slider({
       range: "min",
       value: 8,
